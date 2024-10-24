@@ -1,3 +1,4 @@
+// 写一些测试文件，没有用
 import { readdir } from 'node:fs/promises'
 import path from 'node:path'
 // node 使用import需要添加.mjs后缀
