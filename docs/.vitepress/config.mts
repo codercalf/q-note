@@ -19,7 +19,8 @@ async function getFolders() {
     if (folder.endsWith('.md')) continue
     if (ignoredFolders.includes(folder)) continue
     let files = await readdir(path.join(currentPath, './docs', '/' + folder))
-    files = files.map(i => i.replace('.md', ''))
+    // 忽略图片文件夹
+    files = files.filter(i => i !== 'img').map(i => i.replace('.md', ''))
     let item = { link: folder, files }
     resFolders.push(item)
   }
