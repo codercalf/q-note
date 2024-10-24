@@ -4,7 +4,6 @@ import path from 'node:path'
 // node 使用import需要添加.mjs后缀
 const currentPath = process.cwd()
 console.log(currentPath)
-
 try {
   const files = await readdir(path.join(currentPath, './docs'))
   // 忽略的文件夹
