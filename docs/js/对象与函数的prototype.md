@@ -1,6 +1,5 @@
 # 对象与函数的[[prototype]]、prototype
 
-![image-20220215232624542](C:\Users\echo\AppData\Roaming\Typora\typora-user-images\image-20220215232624542.png)
 
 总结：
 

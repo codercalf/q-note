@@ -85,7 +85,7 @@ git config credential.helper ‘cache –timeout=3600’
 
 将你最近一个贮藏的工作重新应用：git stash apply
 
-指定一个暂存的分支重新应用：git stash apply stash@{<number>}
+指定一个暂存的分支重新应用：git stash apply stash@{\<number\>}
 
 可以运行 git stash drop 加上将要移除的贮藏的名 字来移除它
 

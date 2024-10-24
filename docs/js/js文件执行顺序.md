@@ -80,7 +80,6 @@ Hello Global
 
 当函数参数有默认值时，会多一层参数作用域
 
-![image-20220319205324524](C:\Users\echo\AppData\Roaming\Typora\typora-user-images\image-20220319205324524.png)
 
 **但是测试代码，不行**
 

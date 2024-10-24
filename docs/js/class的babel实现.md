@@ -52,7 +52,7 @@ var Child = function Child(_Parent){
 
 _inheritLoose实现的内容图
 
-![image-20220216222739616](X:\学习笔记\js\img\image-20220216222739616.png)
+![image-20220216222739616](./img/image-20220216222739616.png)
 
 
 
