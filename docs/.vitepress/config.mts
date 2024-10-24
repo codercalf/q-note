@@ -45,7 +45,7 @@ const { nav, sidebar } = processFolder(folders)
 export default defineConfig({
   title: 'My Note',
   description: 'description test',
-
+  base: '/q-note/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
