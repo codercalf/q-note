@@ -30,4 +30,4 @@ a.apply.apply(b, [1])		// b: Number{1}
 a.apply.apply.apply(b, [1])		// b: Number{1}
 a.apply.apply.apply.apply.apply(b, [1])		// b: Number{1}
 ```
-
+test
